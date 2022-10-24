@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    background-color: red;
+}
+#logo{
+    line-height: 60px;
+    margin-left: 40px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    color: #3498bd;
+}
+#logo:hover{
+    color:#ecf0f1;
+}
+#logo-s{
+    color: #ecf0f1;
+    margin-left: 5PX;
+}
+#logo:hover #logo-s{
+    color: #3498bd;
+}
+.search-box{
+   position: absolute;
+   top: 50vh;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+.loupe-white{
+    display: none;
+}
