@@ -1,9 +1,10 @@
 
 .conteiner{
     position: relative;
+ 
 }
 .conteiner .slide-cont .slide{
-   min-height: 100vh;
+   min-height: 50vh;
    display:flex ;
    align-items: center;
    flex-wrap: wrap;
@@ -26,17 +27,19 @@
     margin-top: 25vh;
     color: #f4a6fe;
     font-family: 'Times New Roman', Times, serif;
+    padding-left: 10vw;
 }
 .conteiner .slide-cont .slide .content-proj p{
-    font-size: 16px;
-    color: #fff;
+    font-size: 18px;
+    color: #000;
     font-family: 'Times New Roman', Times, serif;
     width: 40%;
     height: 10%;
-    margin-top: vh;
+    padding-left: 10vw;
 }
 .conteiner .slide-cont .slide .content-proj .btn{
     margin-top: 10px;
+    margin-left: 10vw;
     display: inline-block;
     background-color: #8932c3;
     color: white;
@@ -64,21 +67,22 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 30vh;
 }
 .conteiner .slide-cont:nth-child(2) .slide{
-    background-image: url(Imagens/img2.jpg);
+    background-image: url(Imagens/cutch-sevices\ copy.png);
     background-size: cover;
+    
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 30vh;
 }
 .conteiner .slide-cont:nth-child(3) .slide{
     background-image: url(Imagens/img3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 30vh;
 }
 .conteiner #prev,
 .conteiner #next{
@@ -86,7 +90,7 @@
     top: 50%;
     transform: translateY(-50%);
     color: #fff;
-    background: #890873;
+    background: #07d5f4;
     height: 50px;
     width: 50px;
     line-height: 50px;
@@ -102,13 +106,15 @@
 }
 .conteiner #prev{
     left: 20px;
+    margin-top: 10vh;
 }
 .conteiner #next{
     right: 20px;
+    margin-top: 10vh;
 }
 @media (max-width: 500px){
     .conteiner #prev{
-        top: 60%;
+        top: 70%;
         right: 0;
     }
     .conteiner #next{ 

@@ -1,3 +1,5 @@
+
+
 *{
     padding: 0;
     margin: 0;
@@ -20,35 +22,41 @@
     z-index: 1;
 }
 .barra{
-background-color: #333;
-height: 230px;
+margin-top: -18px;
+background-color: #07d5f4;
+height: 200px;
 width: 200px;
-position: relative;
+position: fixed;
 transition: all .2s linear;
 left: -300px;
 }
 .nav{
+    margin-top: -50px;
     width: 100%;
     position: absolute;
-   
 }
 nav a{
     text-decoration: none;
     padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .link{
-    background-color: #3498bd;
+    top: 0px;
+    background-color: #07d5f4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
     transition: all .2s linear;
     color: #f4f4f9;
-    
-    height: 45px;
+    height: 30px;
+    padding-top: 17px;
     text-align: center;
     border-bottom: 2px solid#222;
+    margin-bottom: -18px;
+    
 }
 .link:hover{
-    background-color: #050542;
+    background-color: #e90e99;
 }
 #check:checked ~.barra{
     transform: translateX(300px);
@@ -57,10 +65,10 @@ nav a{
 header{
     height: 60px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 2;
-    background-color: red;
+    background-color: #07d5f4;
 }
 #logo{
     line-height: 60px;
@@ -125,4 +133,172 @@ header{
 }
 .search-box:hover > .search-btn{
     background: white; 
+}
+.text2{
+    margin-top: 10vh;
+    margin-left: 27vw;
+    align-items: center;
+    align-content: center;
+    width: 45vw;
+    font-size: 20px;
+    font-weight: 30pt;
+    text-align: justify;
+    text-indent: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text3{
+    margin-top: 10vh;
+    display: flex;
+    align-content: center;
+    margin-bottom: ;
+}
+.missao > h2, .visao > h2, .valores > h2{
+    text-align: center;
+    color: #2cc7df;
+}
+.missao{
+    width: 25vw;
+    height: 30vh;
+    margin-left: 7vw;
+}
+.missao >p{
+    width: 25vw;
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 18px;
+}
+.visao{
+    width: 25vw;
+    margin-left: 5vw;
+}
+.visao >p{
+    width: 25vw;
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 18px;
+}
+.valores{
+    width: 25vw;
+    height: 30vh; 
+    margin-left: 5vw;
+}
+.valores >p{
+    width: 25vw;
+    height: 30vh;
+    margin-right: 7vw;
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 18px;
+}
+.fotos{
+    display: flex;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+.foto1{
+    width: 28vw;
+    height: 40vh;
+    
+}
+
+.foto2{
+    width: 28vw;
+    height: 40vh;
+    margin-left: 2px;
+}
+.foto3{
+    width: 28vw;
+    height: 40vh;
+    margin-left: 2px;
+}
+.foto4{
+    width: 84.4vw;
+    height: 40vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+.baixo{
+    background-color: #07d5f4;
+    width: 98vw;
+    height: 46vh;
+    display: flex;
+    padding-top: 3vh;
+    border-radius: 20px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 7vh;
+}
+.txt1 >h2, .txt2 >h2, .txt3 >h2, .txt4 >h2{
+    color: rgb(75, 73, 73);
+} 
+.txt1{
+    color: white;
+    width: 15vw;
+    margin-left: 7vw;
+    font-size: 19px;
+}
+.txt2{
+    color: white;
+    width: 15vw;
+    font-size: 19px;
+    margin-left: 2vw;
+}
+.txt3{
+    color: white;
+    width: 15vw;
+    font-size: 19px;
+}
+.txt4{
+    color: white;
+    width: 15vw;
+    font-size: 19px;
+}
+.line{
+    border-left: 6px solid rgb(75, 73, 73);
+    height: 40vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+/* redes socias*/
+.redes{
+    margin-left: 3vw;
+    margin-right: 5vw;
+}
+.fac{
+    width: 5vw;
+    height: 10vh;  
+}
+.insta{
+    width: 5vw;
+    height: 10vh;  
+}
+.you{
+    width: 5vw;
+    height: 10vh;   
+}
+.call{
+    margin-top: -32vh;
+    margin-left: 77vw;
+}
+.call >h1{
+    color: rgb(75, 73, 73);
+
+}
+.call >p{
+    font-size: 19px;
+}
+
+.pe{
+    width: 100vw;
+    height: 13vh;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    background-color: #343535;
+    margin-top: 2vh;
+}
+.rede{
+    width: 3vw;
+    height: 5vh;
 }
